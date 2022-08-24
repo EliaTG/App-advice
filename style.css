@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Roboto&family=Source+Sans+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.container{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-advice{
+    min-height: 280px;
+    width: 90vw;
+    max-width: 500px;
+    background-color: hsl(217, 19%, 23%);
+    border-radius: 10px;
+    text-align: center;
+}
+.advice-num{
+    color: hsl(150, 100%, 66%);
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 4px;
+    margin: 35px 0 25px 0;
+}
+p.advice-text{
+    font-size: 22px;
+    color:hsl(193, 38%, 84%);
+    margin: 0;
+    font-weight: 800;
+    height: 100px;
+    width: 80%;
+    text-align: center;
+    letter-spacing: 1px;
+    align-items: center;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider img{
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: 30px;
+}
+button.dice{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    padding: 13px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    top: 55px;
+}
+.dice img{
+    height: 24px;
+    width: 24px;
+    object-fit: cover;
+}
+footer{
+    color:hsl(193, 38%, 84%);
+    font-size: 14px;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: hsl(150, 100%, 66%);
+    
+}
